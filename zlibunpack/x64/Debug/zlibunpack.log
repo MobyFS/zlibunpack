@@ -1,0 +1,6 @@
+﻿bc.obj : error LNK2019: unresolved external symbol inflate referenced in function "public: int __cdecl BCWorker::unpackBlockZlib(unsigned char *,unsigned __int64,unsigned char *,unsigned __int64 *)" (?unpackBlockZlib@BCWorker@@QEAAHPEAE_K0PEA_K@Z)
+bc.obj : error LNK2019: unresolved external symbol inflateEnd referenced in function "public: int __cdecl BCWorker::unpackBlockZlib(unsigned char *,unsigned __int64,unsigned char *,unsigned __int64 *)" (?unpackBlockZlib@BCWorker@@QEAAHPEAE_K0PEA_K@Z)
+bc.obj : error LNK2019: unresolved external symbol inflateReset referenced in function "public: int __cdecl BCWorker::unpackBlockZlib(unsigned char *,unsigned __int64,unsigned char *,unsigned __int64 *)" (?unpackBlockZlib@BCWorker@@QEAAHPEAE_K0PEA_K@Z)
+bc.obj : error LNK2019: unresolved external symbol inflateInit2_ referenced in function "public: int __cdecl BCWorker::unpackBlockZlib(unsigned char *,unsigned __int64,unsigned char *,unsigned __int64 *)" (?unpackBlockZlib@BCWorker@@QEAAHPEAE_K0PEA_K@Z)
+D:\projects\thirdparty\zlibunpack\zlib-1.2.3-lib\lib\zlib.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\projects\thirdparty\zlibunpack\x64\Debug\zlibunpack.exe : fatal error LNK1120: 4 unresolved externals
